@@ -1,38 +1,90 @@
-# Sistema Clínica Vida+
+<h1 align="center">🏥 Sistema Clínica Vida+</h1>
 
-Sistema de linha de comando em Python para cadastro e consulta de pacientes de uma clínica.
+<p align="center">
+  Sistema de linha de comando em Python para cadastro e consulta de pacientes.
+</p>
 
-## Funcionalidades
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Licen%C3%A7a-MIT-green?style=for-the-badge" alt="Licença">
+</p>
 
-- Cadastrar paciente, com validação de nome, idade e telefone
-- Ver estatísticas: total de pacientes, média de idades, paciente mais jovem e mais velho
-- Buscar paciente por nome (ignora maiúsculas e minúsculas)
-- Listar todos os pacientes cadastrados
+---
 
-## Como executar
+## 📋 Sobre o projeto
 
-1. Instale o [Python 3](https://www.python.org/downloads/)
-2. Baixe ou clone este repositório
-3. No terminal, dentro da pasta do projeto, rode:
+Projeto criado para praticar lógica de programação e fundamentos de Python. O sistema simula o dia a dia de uma clínica: cadastrar pacientes, consultar informações e acompanhar estatísticas básicas, tudo pelo terminal.
+
+## ✨ Funcionalidades
+
+- ✅ **Cadastro de pacientes** com validação de nome, idade e telefone
+- 📊 **Estatísticas:** total de pacientes, média de idades, paciente mais jovem e mais velho
+- 🔍 **Busca por nome**, sem diferenciar maiúsculas de minúsculas e aceitando nome parcial
+- 📃 **Listagem** de todos os pacientes cadastrados
+
+## 🖥️ Demonstração
+
+```text
+=== SISTEMA CLÍNICA VIDA+ ===
+
+1. Cadastrar paciente
+2. Ver estatísticas
+3. Buscar paciente
+4. Listar todos os pacientes
+5. Sair
+
+Escolha uma das opções: 1
+
+Digite o nome do paciente: Maria Silva
+Digite a idade do paciente: 34
+Digite o número de telefone do paciente: 11999999999
+
+Paciente cadastrado com sucesso!
+```
+
+```text
+=== ESTATÍSTICAS ===
+
+Total de pacientes cadastrados: 2
+Média de idades dos pacientes: 43.0
+Paciente mais jovem: Maria Silva
+Paciente mais velho: João Souza
+```
+
+## 🚀 Como executar
+
+**Pré-requisito:** [Python 3](https://www.python.org/downloads/) instalado.
 
 ```bash
+# Clone o repositório
+git clone https://github.com/AyslanPiovani/sistema-clinica-vida.git
+
+# Entre na pasta
+cd sistema-clinica-vida
+
+# Execute o sistema
 python main.py
 ```
 
-## Conceitos praticados
+## 📁 Estrutura do projeto
 
-- Listas e dicionários
-- Funções
+```text
+sistema-clinica-vida/
+├── main.py      # Código principal (funções e menu)
+└── README.md    # Documentação
+```
+
+## 🧠 O que pratiquei
+
+- Listas e dicionários para armazenar os dados
+- Funções com responsabilidade única
 - Laços de repetição e condicionais
 - Tratamento de erros com `try/except`
-- Validação de entrada do usuário
+- Validação de entradas do usuário
 
-## Melhorias futuras
+## 👨‍💻 Autor
 
-- Salvar os dados em arquivo (JSON ou CSV) para não perder os cadastros ao fechar o programa
-- Editar e remover pacientes
-- Evitar cadastros duplicados
+**Ayslan Piovani**
 
-## Autor
-
-Feito por [Ayslan Piovani](https://github.com/AyslanPiovani) como projeto de estudos em Python.
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/AyslanPiovani)
