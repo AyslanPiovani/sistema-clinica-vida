@@ -85,6 +85,6 @@ sistema-clinica-vida/
 
 ## 👨‍💻 Autor
 
-**Ayslan Piovani**
+**Ayslan Rissato Piovani**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/AyslanPiovani)
